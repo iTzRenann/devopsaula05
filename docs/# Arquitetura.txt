@@ -1,0 +1,7 @@
+# Arquitetura 
+
+* As funções relacionadas ao gerenciamento das casas do jogo da veha ficarão no modulo **jogovelha.py**. 
+
+* O estado de cada casa do jogo será representada por uma string: "." para casa vazia; "X" para casa ocupada pelo 1° jogador. 
+
+* A função inicializada() retornará uma lista de 3x3, onde casa posição conterá uma string para indicar o estado de uma casa do jogo. A função retornará todas as casas inicialmente vazias. 
